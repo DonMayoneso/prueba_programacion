@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas Saludables | Inicio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="assets/chef.jpg" type="image/jpeg">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Recetas Saludables</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Inicio</a></li>
+                    <li><a href="recetas.html">Recetas</a></li>
+                    <li><a href="favoritos.html">Favoritos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" class="theme-toggle">🌙</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Descubre el placer de comer sano</h2>
+                    <p>Recetas deliciosas, nutritivas y fáciles de preparar para cada ocasión</p>
+                    <a href="recetas.html" class="btn">Explorar recetas</a>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/gentefeliz.jpg" alt="Comida saludable">
+                </div>
+            </div>
+        </section>
+
+        <section class="featured">
+            <div class="container">
+                <h2>Receta destacada</h2>
+                <div class="featured-recipe" id="featured-recipe">
+                    <!-- La receta destacada se cargará dinámicamente con JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section class="categories">
+            <div class="container">
+                <h2>Categorías</h2>
+                <div class="categories-grid">
+                    <div class="category-card" data-category="entrada">
+                        <div class="category-icon">🥗</div>
+                        <h3>Entradas</h3>
+                        <p>Platos ligeros para comenzar tu comida</p>
+                        <span class="btn-secondary">Ver recetas</span>
+                    </div>
+                    <div class="category-card" data-category="fuerte">
+                        <div class="category-icon">🍲</div>
+                        <h3>Platos Fuertes</h3>
+                        <p>Platos principales nutritivos y satisfactorios</p>
+                        <span class="btn-secondary">Ver recetas</span>
+                    </div>
+                    <div class="category-card" data-category="postre">
+                        <div class="category-icon">🍰</div>
+                        <h3>Postres</h3>
+                        <p>Dulces saludables para terminar con alegría</p>
+                        <span class="btn-secondary">Ver recetas</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal para mostrar detalles de receta (AGREGADO) -->
+    <div id="recipe-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-recipe-content">
+                <!-- Contenido de la receta se cargará aquí -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Recetas Saludables</h3>
+                    <p>Tu destino para comidas nutritivas y deliciosas</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="recetas.html">Recetas</a></li>
+                        <li><a href="favoritos.html">Favoritos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Recetas Saludables. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/recetas.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', async function() {
+            await cargarRecetaDestacada();
+            configurarModal();
+            console.log('Index - Modal configurado');
+            });
+    </script>
+</body>
+</html>

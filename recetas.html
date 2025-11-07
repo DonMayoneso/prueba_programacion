@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas Saludables | Recetas</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="assets/chef.jpg" type="image/jpeg">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Recetas Saludables</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="recetas.html" class="active">Recetas</a></li>
+                    <li><a href="favoritos.html">Favoritos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" class="theme-toggle">🌙</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="recipes-header">
+            <div class="container">
+                <h2>Nuestras Recetas</h2>
+                <p>Descubre una variedad de platos saludables para cada ocasión</p>
+                
+                <div class="filters">
+                    <button class="filter-btn active" data-filter="todos">Todas</button>
+                    <button class="filter-btn" data-filter="entrada">Entradas</button>
+                    <button class="filter-btn" data-filter="fuerte">Platos Fuertes</button>
+                    <button class="filter-btn" data-filter="postre">Postres</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="recipes-gallery">
+            <div class="container">
+                <div class="recipes-grid" id="recipes-grid">
+                    <!-- Las recetas se cargarán dinámicamente con JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal para mostrar detalles de receta -->
+    <div id="recipe-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-recipe-content">
+                <!-- Contenido de la receta se cargará aquí -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Recetas Saludables</h3>
+                    <p>Tu destino para comidas nutritivas y deliciosas</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="recetas.html">Recetas</a></li>
+                        <li><a href="favoritos.html">Favoritos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Recetas Saludables. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/recetas.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', async function() {
+            await cargarRecetas();
+            configurarFiltros();
+            configurarModal();
+            console.log('Recetas - Modal configurado');
+            
+            const urlParams = new URLSearchParams(window.location.search);
+            const categoria = urlParams.get('categoria');
+            if (categoria) {
+                aplicarFiltro(categoria);
+            }
+        });
+    </script>
+</body>
+</html>

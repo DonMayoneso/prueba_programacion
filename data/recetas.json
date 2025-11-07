@@ -1,0 +1,279 @@
+{
+  "recetas": [
+    {
+      "id": 1,
+      "nombre": "Ensalada César",
+      "categoria": "entrada",
+      "imagen": "assets/ensaladacesar.jpg",
+      "tiempo": "20 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Lechuga Romana",
+        "Pan en cuadros",
+        "Tocino",
+        "Queso parmesano",
+        "1 huevo",
+        "Aceite de oliva",
+        "Sal",
+        "Pimienta",
+        "1/2 limón"
+      ],
+      "instrucciones": [
+        "Picamos el pan en cuadros pequeños y llevamos al horno a 180 grados durante 10 minutos o hasta que estén crujientes y reservamos.",
+        "Lavamos y picamos la lechuga Romana.",
+        "En la licuadora vertemos el huevo y vamos agregando el aceite tipo hilo hasta formar una mayonesa, agregamos sal, pimienta y el jugo de 1/2 limón.",
+        "Metemos el tocino en el microondas hasta que quede crujiente y lo picamos pequeñito.",
+        "Emplatamos colocando la lechuga, el queso parmesano la salsa, el pan y por último el tocino."
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Tartar de Atún",
+      "categoria": "entrada",
+      "imagen": "assets/tartaratun.jpg",
+      "tiempo": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "100 gramos atún rojo",
+        "3 cucharadas salsa de soja",
+        "1 cucharada aceite de sésamo",
+        "1 aguacate",
+        "1/2 cebolla perla pequeña",
+        "1/2 tomate pequeño",
+        "Sal",
+        "Azúcar (stevia)",
+        "Brotes de cebolla",
+        "Tomate cherry para decorar"
+      ],
+      "instrucciones": [
+        "Cortar en cubos pequeños el atún y aderezar con la salsa de soja, el aceite de sésamo, una pizca de azúcar y una de sal.",
+        "Cortar en cubos muy pequeños la cebolla y el tomate y aderezar con sal y aceite de sésamo.",
+        "Picar el aguacate en cubos igual y colocarle sal.",
+        "Con la ayuda de un timbal (aro de aluminio), montar el plato: primero aguacate, luego la ensalada de tomate y cebolla y por último el atún.",
+        "Decorar con los brotes de cebolla y un tomate cherry al final."
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Soufflé de Brócoli",
+      "categoria": "entrada",
+      "imagen": "assets/suflebrocoli.jpg",
+      "tiempo": "45 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "1 brócoli",
+        "1 taza salsa bechamel",
+        "2 huevos",
+        "1 taza queso parmesano",
+        "1 cucharada harina",
+        "1/2 cebolla perla",
+        "Aceite de oliva",
+        "Sal",
+        "Pimienta",
+        "Nuez moscada",
+        "Para la bechamel:",
+        "1 cucharada mantequilla",
+        "1 cucharada harina de trigo",
+        "1 taza leche",
+        "Pizca de sal",
+        "Pizca de nuez moscada"
+      ],
+      "instrucciones": [
+        "Preparar la salsa bechamel: derretir la mantequilla, añadir la harina y cocinar 1 minuto. Agregar la leche poco a poco, batiendo constantemente hasta espesar. Añadir sal y nuez moscada. Reservar.",
+        "Picar el brócoli en arbolitos y cocinar en agua hirviendo con sal durante 5 minutos.",
+        "Escurrir el brócoli y sumergir en agua fría con hielo para detener la cocción y mantener el color.",
+        "Dejar 5 minutos en agua fría, escurrir bien y picar en trozos pequeños.",
+        "Separar las claras de las yemas de huevo. Batir las claras a punto de nieve y reservar.",
+        "Picar la cebolla en juliana y freír en aceite de oliva hasta dorar.",
+        "En un bol, batir las yemas, agregar la bechamel, el queso parmesano rallado, nuez moscada, harina, brócoli picado, cebolla frita, sal y pimienta. Mezclar bien.",
+        "Incorporar las claras batidas a punto de nieve con movimientos envolventes suaves para no perder el aire.",
+        "Verter la mezcla en un molde y hornear a 160°C durante 15 minutos o hasta que al insertar un cuchillo salga limpio.",
+        "Dejar reposar unos minutos antes de servir."
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Pollo al Curry",
+      "categoria": "fuerte",
+      "imagen": "assets/polloalcurry.jpg",
+      "tiempo": "45 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "1 kg pechuga de pollo",
+        "300 ml leche de coco",
+        "2 cucharadas pasta de tomate",
+        "2 cucharadas curry en polvo",
+        "2 cucharadas aceite de oliva",
+        "2 dientes ajo",
+        "1 cebolla perla",
+        "Sal al gusto",
+        "Pimienta al gusto",
+        "Cilantro fresco"
+      ],
+      "instrucciones": [
+        "Picar la cebolla y los ajos finamente y dorar en una sartén con el aceite de oliva.",
+        "Cortar el pollo en cubitos tamaño bocado y agregar a la sartén.",
+        "Una vez el pollo esté sellado agregar la pasta de tomate, la mezcla de curry y la leche de coco.",
+        "Cocinar hasta que el pollo esté cocido y la salsa haya reducido.",
+        "Salpimentar y agregar el cilantro finamente picado.",
+        "Servir con arroz blanco como guarnición."
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Tagliatelle con Pollo a la Crema",
+      "categoria": "fuerte",
+      "imagen": "assets/pastapollo.jpg",
+      "tiempo": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "300 gr tagliatelle u otra pasta",
+        "3 cucharadas crema de leche",
+        "1/2 taza agua",
+        "300 gr pechuga de pollo en cubos",
+        "2 cucharadas cebollín finamente picado",
+        "1/2 cucharada mantequilla",
+        "Aceite de oliva",
+        "Sal al gusto",
+        "Pimienta al gusto",
+        "1 pizca azúcar",
+        "1/2 cucharadita fécula de maíz",
+        "Queso parmesano (opcional)"
+      ],
+      "instrucciones": [
+        "Salpimentar el pollo y saltear en una sartén con la mantequilla y 1 cucharada de aceite. Agregar una pizca de azúcar y dejar dorar un poco. Apagar y reservar.",
+        "En una olla agregar mantequilla y aceite, saltear el cebollín por 5 minutos.",
+        "Agregar el pollo y saltear 5 minutos más.",
+        "Añadir la crema de leche y agua, mezclar bien. Rectificar la sal y agregar pimienta al gusto.",
+        "Mezclar la fécula de maíz con agua e incorporar a la mezcla. Dejar cocinar hasta que espese removiendo constantemente.",
+        "Incorporar la pasta cocida a la mezcla y servir. Opcional: agregar queso parmesano."
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Lomo Saltado",
+      "categoria": "fuerte",
+      "imagen": "assets/lomosaltado.jpg",
+      "tiempo": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "400 g lomo de res",
+        "2 dientes ajo",
+        "1 tomate",
+        "1 cebolla",
+        "1 pimiento verde",
+        "1 pimiento rojo",
+        "1 pimiento amarillo",
+        "2 cucharadas aceite de oliva",
+        "1 cucharada salsa de soja",
+        "Sal al gusto",
+        "Pimienta al gusto"
+      ],
+      "instrucciones": [
+        "Cortar el lomo en tiras tamaño bocado.",
+        "Picar el ajo y sofreír en el aceite de oliva.",
+        "Agregar las tiras de lomo y dejar cocer.",
+        "Cortar en julianas gruesas la cebolla, el tomate y los pimientos.",
+        "Cuando el lomo esté a medio cocer agregar todos los vegetales cortados y dejar cocer con los jugos de la carne.",
+        "Agregar la salsa de soja, salpimentar y mezclar todo para que termine la cocción sin agregar agua.",
+        "Servir con arroz blanco y patatas fritas."
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Leche Nevada",
+      "categoria": "postre",
+      "imagen": "assets/lechenevada.jpeg",
+      "tiempo": "1 hora",
+      "dificultad": "Media",
+      "ingredientes": [
+        "1/2 litro leche",
+        "3 yemas de huevo",
+        "1/2 taza de azúcar",
+        "1 cucharada maicena",
+        "1 palito canela",
+        "Piel de limón",
+        "Para el merengue:",
+        "3 claras de huevo",
+        "1/2 taza azúcar",
+        "1/2 cucharadita vinagre o limón",
+        "Canela en polvo para decorar"
+      ],
+      "instrucciones": [
+        "En una taza mezclar las tres yumas, 1/2 taza de azúcar, maicena y tres cucharadas de leche. Apartar.",
+        "En una olla poner el resto de la leche con el palito de canela y la piel de limón.",
+        "Cuando la leche se caliente, verter la mezcla de la taza poco a poco dando vueltas. Cocinar a fuego medio hasta que espese.",
+        "Verter en un molde refractario después de quitar el palito de canela y la piel de limón.",
+        "Batir las claras a punto de nieve con el vinagre o limón, agregando el azúcar poco a poco hasta tener picos firmes.",
+        "Poner por cucharadas encima de la natilla.",
+        "Hornear a 200°C solo con grill durante 15-20 minutos, tapado con papel aluminio.",
+        "Sacar y dejar enfriar. Espolvorear con canela en polvo."
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Pie de Limón",
+      "categoria": "postre",
+      "imagen": "assets/piedelimon.jpg",
+      "tiempo": "45 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "4 huevos",
+        "1 lata leche condensada",
+        "1 lata leche evaporada",
+        "6 limones exprimidos",
+        "Ralladura de 1 limón",
+        "1 paquete grande de galletas de dulce",
+        "1/2 taza mantequilla derretida",
+        "Azúcar para las claras"
+      ],
+      "instrucciones": [
+        "Triturar las galletas en la licuadora.",
+        "Añadir la mantequilla derretida al polvo de las galletas y amasar.",
+        "Extender la masa sobre un molde y refrigerar 10 minutos.",
+        "Separar las yemas de los huevos y colocarlas en la licuadora junto con las leches, el jugo de limón y la ralladura. Licuar hasta obtener una mezcla homogénea.",
+        "Colocar la mezcla en el molde con la masa y llevar al horno por 20 minutos.",
+        "Batir las claras con azúcar a punto de nieve.",
+        "Retirar el pie del horno y dejar enfriar, aplicar el merengue formando picos.",
+        "Volver a meter al horno por 10 minutos."
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "Tiramisú",
+      "categoria": "postre",
+      "imagen": "assets/tiramisu.jpg",
+      "tiempo": "1 hora",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Para la crema sabayon:",
+        "2 yemas de huevo",
+        "50 gr azúcar",
+        "1 cucharadita esencia de vainilla",
+        "1 cucharadita amaretto",
+        "220 gr queso crema",
+        "80 ml crema de leche",
+        "Para el almíbar de café:",
+        "500 gr azúcar",
+        "500 ml agua",
+        "Café al gusto",
+        "1 cucharada ron o licor de café",
+        "24 unidades bizcotelas",
+        "Chocolate en polvo para decorar"
+      ],
+      "instrucciones": [
+        "Sabayon: en un bol de vidrio agregar las dos yemas, el azúcar, vainilla y amaretto. Mezclar bien con batidor.",
+        "Llevar a baño María y batir sin parar hasta que doble el volumen y la mezcla esté espesa.",
+        "Dejar enfriar el sabayon.",
+        "En otro bol batir el queso crema hasta que esté muy suave.",
+        "En otro bol batir la crema de leche fría hasta punto yogurt.",
+        "Agregar el queso crema al sabayon enfriado en dos partes, luego incorporar la crema batida de forma envolvente.",
+        "Hacer el almíbar de café: en una olla poner azúcar y agua. Disolver café en media taza de agua y agregar al almíbar.",
+        "Una vez que rompa hervor, apagar y dejar entibiar. Agregar el ron o licor de café.",
+        "Remojar las bizcotelas en el almíbar de café tibio hasta que estén blandas, luego escurrir.",
+        "Armar en capas: una capa de bizcotelas, una capa de crema, otra capa de bizcotelas y terminar con crema.",
+        "Espolvorear chocolate en polvo encima y llevar al congelador hasta servir."
+      ]
+    }
+  ]
+}
